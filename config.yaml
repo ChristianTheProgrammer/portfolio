@@ -361,11 +361,10 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/ChristianTheProgrammer
+      linkedin: https://www.linkedin.com/in/christian-gonzalez-5494a2199/
+      twitter: https://twitter.com/CRGProgrammin
+ 
 
   # List pages like blogs and posts
   listPages:
