@@ -1,6 +1,6 @@
 baseURL: "https://christiangonzalezz.netlify.app/"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "My Portfolio"
 theme: hugo-profile
 
 outputs:
@@ -53,10 +53,10 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
+  title: "My Portfolio"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/id.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -101,10 +101,10 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandLogo: "/id.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    brandName: "Christian's Portfolio" # Brand name for the brand | default is the title variable
+    disableSearch: true
     # searchPlaceholder: "Search"
     menus:
       disableAbout: false
@@ -137,9 +137,9 @@ params:
           url: https://github.com/ChristianTheProgrammer
         - icon: fab fa-twitter
           url: https://twitter.com/CRGProgrammin
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/christian-gonzalez-5494a2199/
+     
 
   # About
   about:
@@ -174,13 +174,10 @@ params:
           enable: false
           name: "View the project"
           url: "https://www.legacy.com/"
-        content: "  As an IT Admin at Legacy.com, I reinforce every aspect of the company as it relates to IT
-          troubleshooting/problem-solving and support 300+ users including CEOs and Executives across Legacy
-          and its sister companies, Adpay, Tukios, and iPublish. In addition, I configure and administer the
-          majority of Legacy's user-facing software and environments, such as Office 365, AWS, Okta, Active
-          Directory, Azure AD, Slack, Zoom, LastPass, Atlassian, and Kandji. I also help teams optimize their
-          workflow and training with software and tech by collaborating with managers and team leads to educate
-          their employees on best practices."
+        content: |
+            I'm an IT Admin at Legacy.com, supporting over 300 users, including CEOs and Executives from Legacy and its sister companies. I configure and manage user-facing software and environments like Office 365, AWS, Okta, etc. I also help teams optimize their workflow and training by educating employees on best practices."
+            - Configuring and administering AWS WorkSpaces and EC2 instances to support Legacy.com's userfacing software and environments.
+            - Maintaining physical on-site servers and networking equipment.
 
       - job: "Information Technology Desktop Support Tech"
         company: "Northern Trust Corporation"
@@ -192,13 +189,16 @@ params:
         info:
           enable: true
           content: I worked as a software developer for more than one year in Northern Trust Corporation.
-        content: 
-         
-         " As a Contracted IT administrator for Northern, I am one of two Techs responsible for the deployment
+        content: |
+            As a Contracted IT administrator for Northern, I am one of two Techs responsible for the deployment
             of laptops and desktops to new partners of the company all across North America. I work closely
             with managers, developers, and my team to ensure that each new partner has a seamlessly great
             IT experience when welcomed to the company and that any barriers they face are broken down and
-            solved."
+            solved.
+            - Perform hands-on fixes, including installing and upgrading software, installing hardware, implementing
+                file backups, and configuring applications and mobile devices
+            - Collaborating with other teams to assist in troubleshooting, identify root causes, and provide technical
+              support when needed.
 
 
       - job: "Information Technology Technician"
@@ -258,7 +258,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -280,12 +280,12 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: "/profile.png"
+      - title: Next Level Electrical
+        content: Company website for an Electrical business.
+        image: "/Electrical Website.PNG"
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: http://www.nextleveles.com/
         badges:
           - "Hugo"
           - "Bootstrap"
@@ -298,46 +298,47 @@ params:
           - icon: fab fa-twitter
             url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /converter.jpg
+      - title: Fancy Counter
+        content: Fancy Counter using HTML, CSS and Javascript
+        image: /FancyCounter.png
         featured:
           name: Demo
-          link: https://django-converter.herokuapp.com
+          link: https://fancysimplecounter.netlify.app/
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Javascript"
+          - "HTML"
+          - "CSS"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/ChristianTheProgrammer
 
-      - title: Hugo Profile V2
+      - title: H
         content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /profile2.jpg
+        image: /PostCheckr.png
         featured:
           name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          link: https://postcheckr.netlify.app/
         badges:
-          - "Hugo"
-          - "Bootstrap"
           - "Javascript"
+          - "HTML"
+          - "CSS"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/ChristianTheProgrammer
             
-        title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /profile2.jpg
+        title: Post Checkr
+        content: Creating a social media post? Use PostChekr to stay in the length requirments of different apps!
+        image: /PostCheckr.png
         featured:
           name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          link: https://postcheckr.netlify.app/
         badges:
           - "Hugo"
           - "Bootstrap"
           - "Javascript"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/ChristianTheProgrammer
             
 
   #Contact
@@ -345,7 +346,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: christiang333@gmail.com
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
